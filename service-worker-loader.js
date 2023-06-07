@@ -1,3 +1,1 @@
-import 'http:/localhost:5173/@vite/env';
-import 'http://localhost:5173/@crx/client-worker';
-import 'http://localhost:5173/src/content-scripts/background.ts';
+import './assets/background.ts.20077acc.js';

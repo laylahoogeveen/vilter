@@ -30,7 +30,7 @@ Die tekst kun je in het tekstvakje onder "Importeer JSON-lijst" plakken. Hierna 
 <img width="300" alt="image" src="https://github.com/laylahoogeveen/vilter/assets/54817230/03f2aae9-51b6-4ae1-90a6-9c28bcdc6b66">
 
 
-## Het lukt niet. Help!
+## Het lukt niet. Help!!
 
 **Ik weet niet hoe ik een bestand moet unzippen**
 - Windows: rechtermuisknop op het bestand in je File Explorer > 'Extract all'

@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener(function(e){if(!!e)return e.message==="rerun_script"&&chrome.tabs.query({active:!0,currentWindow:!0},function(r){chrome.tabs.sendMessage(r[0].id,{message:"rerun_script_permission"})}),!1});

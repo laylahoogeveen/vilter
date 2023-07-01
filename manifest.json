@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/remove-items.ts-loader.14eff657.js"
+        "assets/remove-items.ts-loader.ce8b6f8e.js"
       ],
       "matches": [
         "https://*.vinted.com/*",
@@ -77,8 +77,8 @@
         "https://*.vinted.sk/*"
       ],
       "resources": [
-        "assets/chrome-searches-storage.dc9ea56f.js",
-        "assets/remove-items.ts.d061801c.js"
+        "assets/chrome-searches-storage.4054d580.js",
+        "assets/remove-items.ts.64735d42.js"
       ],
       "use_dynamic_url": true
     }

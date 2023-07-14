@@ -49,4 +49,4 @@ Er verschijnt een invoerveldje voor de titel nadat je op de knop hebt gedrukt.
 
 **Ik weet niet hoe ik een bestand moet unzippen**
 - Windows: rechtermuisknop op het bestand in je File Explorer > 'Extract all'
-- MacOS: dubbelklik op het bestand op MacOS.
+- MacOS: dubbelklik op het bestand in de Finder.

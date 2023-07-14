@@ -15,7 +15,7 @@ Zodra de extensie is toegevoegd, zal deze verschijnen in de lijst met geïnstall
 
 ## Hoe te gebruiken
 - Klik op de extensie. Dit opent een pop-up. In deze pop-up kun je snel merken toevoegen tijdens het browsen. Herlaad dan wel de pagina op Vinted om direct de net toegevoegde merken te verbergen
-- <img width="300" alt="De pop-up wordt geopend" src="https://github.com/laylahoogeveen/vilter/assets/54817230/77c83c83-5f20-43a3-a55e-f80b1555875c">
+<img width="300" alt="De pop-up wordt geopend" src="https://github.com/laylahoogeveen/vilter/assets/54817230/77c83c83-5f20-43a3-a55e-f80b1555875c">
 
 - Of klik op 'Lijst weergeven' in de pop-up en ga naar de extensiepagina. Hier kun je makkelijk veel merken in één keer toevoegen of toegevoegde merken verwijderen.
 
@@ -31,13 +31,18 @@ Die tekst kun je in het tekstvakje onder "Importeer JSON-lijst" plakken. Hierna 
 <img width="300" alt="image" src="https://github.com/laylahoogeveen/vilter/assets/54817230/aa26b36a-e8f1-4f54-b377-b2520c7a1684">
 
 #### Zoekopdrachten opslaan
-Deze functionaliteit staat standaard uit, maar het is mogelijk om je zoekopdrachten op te slaan in de extensie. Dit is overzichtelijker dan op Vinted zelf, omdat je daar de zoekopdrachten geen naam kan geven en alleen maar een een preview kunt zien van enkele filters die zijn toegevoegd aan je zoekopdracht. 
+Het is mogelijk om zoekopdrachten op te slaan in Vilter. Dit is overzichtelijker dan op Vinted zelf, omdat je daar de zoekopdrachten geen naam kan geven en alleen maar een een preview kunt zien van enkele filters die zijn toegevoegd aan je zoekopdracht. Daarnaast zijn zoekopdrachten redelijk buggy op Vinted, want Vinted ziet alles als dezelfde zoekopdracht, ook al zijn er totaal andere filters toegepast. Probeer maar iets toe te voegen en pas dan het artikeltype en merk en de kleuren etc. aan. 
 
 <img width="300" alt="image" src="https://github.com/laylahoogeveen/vilter/assets/54817230/aa2e8a00-b315-4179-be36-80c8f019c748">
 
-Zoekopdrachten voeg je op dezelfde manier toe als op Vinted zelf. De zoekopdrachten worden ook daadwerkelijk opgeslagen op je Vinted account op de site, maar ook in de extensie met een naam. Het enige verschil: wanneer je op Vinted klikt op 'Zoekopdracht opslaan', zorgt de extensie ervoor dat er een tekstveldje verschijnt waarin je de zoekopdracht een naam kan geven. Als je op 'Voeg toe' klikt, zal de zoekopdracht met naam worden toegevoegd aan het bovenstaande overzicht.
+Zoekopdrachten voeg je makkelijk toe met de knop naast de huidige zoekopdrachtenknop op Vinted. 
 
-<img width="300" alt="image" src="https://github.com/laylahoogeveen/vilter/assets/54817230/6f81c0b6-5903-4db7-9ec6-d1d0cab0a0aa">
+<img width="900" alt="image" src="https://github.com/laylahoogeveen/vilter/assets/54817230/c734c343-1cae-4f3d-bc84-1ced5708fdd2">
+
+Er verschijnt een invoerveldje voor de titel nadat je op de knop hebt gedrukt.
+
+<img width="300" alt="image" src="https://github.com/laylahoogeveen/vilter/assets/54817230/9247c1eb-1d60-4d30-9a52-1c5e6dd3707c">
+
 
 
 ## Het lukt niet. Help!

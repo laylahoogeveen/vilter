@@ -31,7 +31,7 @@ Die tekst kun je in het tekstvakje onder "Importeer JSON-lijst" plakken. Hierna 
 <img width="300" alt="image" src="https://github.com/laylahoogeveen/vilter/assets/54817230/aa26b36a-e8f1-4f54-b377-b2520c7a1684">
 
 #### Zoekopdrachten opslaan
-Het is mogelijk om zoekopdrachten op te slaan in Vilter. Dit is overzichtelijker dan op Vinted zelf, omdat je daar de zoekopdrachten geen naam kan geven en alleen maar een een preview kunt zien van enkele filters die zijn toegevoegd aan je zoekopdracht. Daarnaast zijn zoekopdrachten redelijk buggy op Vinted, want Vinted ziet alles als dezelfde zoekopdracht, ook al zijn er totaal andere filters toegepast. Probeer maar iets toe te voegen en pas dan het artikeltype en merk en de kleuren etc. aan. 
+Het is mogelijk om zoekopdrachten op te slaan in Vilter. Dit is overzichtelijker dan op Vinted zelf, omdat je daar de zoekopdrachten geen naam kunt geven en niet makkelijk kunt zien welke filters erin zijn toegepast. Daarnaast werken ze ook niet goed op Vinted. Vinted ziet alles als dezelfde zoekopdracht, ook al zijn er totaal andere filters toegepast. Probeer maar iets toe te voegen en pas dan het artikeltype en merk en de kleuren etc. aan; dan kun je hem niet als een nieuwe zoekopdracht opslaan.
 
 <img width="300" alt="image" src="https://github.com/laylahoogeveen/vilter/assets/54817230/aa2e8a00-b315-4179-be36-80c8f019c748">
 

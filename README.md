@@ -14,7 +14,7 @@ Chrome-extensie om specifieke merken te verbergen op Vinted.
 Zodra de extensie is toegevoegd, zal deze verschijnen in de lijst met geïnstalleerde extensies. Je kunt de extensie nu gebruiken zoals elke andere extensie in Chrome.
 
 ## Hoe te gebruiken
-- Klik op de extensie. Dit opent een pop-up. In deze pop-up kun je snel merken toevoegen tijdens het browsen. Herlaad dan wel de pagina op Vinted om direct de net toegevoegde merken te verbergen
+- Klik op de extensie. Dit opent een pop-up. In deze pop-up kun je snel merken toevoegen tijdens het browsen. 
 <img width="300" alt="De pop-up wordt geopend" src="https://github.com/laylahoogeveen/vilter/assets/54817230/77c83c83-5f20-43a3-a55e-f80b1555875c">
 
 - Of klik op 'Lijst weergeven' in de pop-up en ga naar de extensiepagina. Hier kun je makkelijk veel merken in één keer toevoegen of toegevoegde merken verwijderen.

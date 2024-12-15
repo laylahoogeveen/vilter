@@ -77,7 +77,11 @@ export async function getBlockedItems() {
     let brandNameHeading;
     const lastContainer = possibleBrandContainers[possibleBrandContainers.length - 1];
     if (lastContainer) {
-      brandNameHeading = lastContainer.querySelector("h4");
+      brandNameHeading = lastContainer.children?.[0];
+      const textElements = lastContainer.querySelectorAll("p");
+      if (textElements.length) {
+        brandNameHeading = textElements[textElements.length - 1];
+      }
     } else {
       brandNameHeading = item.querySelectorAll(
         '[data-testid$="description-subtitle"]'
@@ -101,8 +105,12 @@ async function getAddToSavedSearchesButton() {
   if (!shouldReplace) {
     return;
   }
+  console.log("shouldReplace", shouldReplace);
   existingSaveButton = content.querySelector('button[data-testid*="catalog-search-save-button"]') ?? content.querySelector('button[data-testid*="catalog-search-delete-button"]');
-  const saveButton = existingSaveButton.cloneNode();
+  if (!existingSaveButton) {
+    return;
+  }
+  const saveButton = existingSaveButton?.cloneNode();
   const buttonHtml = saveButton;
   const container = document.createElement("div");
   container.setAttribute("id", "save-to-vilter-container");
@@ -111,10 +119,25 @@ async function getAddToSavedSearchesButton() {
   container.style.gap = "10px";
   buttonHtml.setAttribute("id", "save-to-vilter");
   existingSaveButton.parentElement.style.alignItems = "flex-start";
-  buttonHtml.innerHTML = '<div class="web_ui__Chip__prefix" data-testid="catalog-search-save-button--prefix"><span class="web_ui__Icon__icon web_ui__Icon__regular web_ui__Icon__greyscale-level-1" data-icon-name="bookmark"><svg viewBox="0 0 24 24"><path d="M18.5 1h-13C4.67 1 4 1.67 4 2.5V23l8-5 8 5V2.5c0-.83-.67-1.5-1.5-1.5m0 1.5v17.8l-5.7-3.57-.8-.5-.8.5-5.7 3.56V2.5h13"></path></svg></span></div><div class="web_ui__Chip__text"><span class="web_ui__Text__text web_ui__Text__subtitle web_ui__Text__left web_ui__Text__amplified web_ui__Text__truncated" data-testid="catalog-search-save-button--text"><span>Sla op in Vilter</span></span></div>';
+  buttonHtml.innerHTML = existingSaveButton.innerHTML?.replace(
+    "Zoekopdracht opslaan",
+    "Zoekopdracht opslaan in Vilter"
+  );
   container.appendChild(buttonHtml);
   existingSaveButton.insertAdjacentElement("afterend", container);
   existingSaveButton.parentNode.style.gap = "10px";
+  const saveButtonHtml = saveButton;
+  if (saveButtonHtml) {
+    saveButtonHtml.style.borderColor = "#F39237";
+    saveButtonHtml.style.color = "#F39237";
+    saveButtonHtml.childNodes.forEach((child) => {
+      child.firstChild.style.color = "#F39237";
+    });
+    const svg = saveButtonHtml.querySelector("svg");
+    if (svg) {
+      svg.style.fill = "#F39237";
+    }
+  }
   saveButton.addEventListener("click", handleSavedSearchButtonClick);
 }
 async function handleSavedSearchButtonClick() {
